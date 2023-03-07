@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 1020px){
+
+    .contenedor{
+        width: 100%;
+    }
+    .header{
+        width:100%;
+        flex-flow: row;
+    }.logo{
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+        flex-flow: row;
+    }
+        .logo img{
+            /* width: 250px;
+            height: 75px; */
+        }
+    .nav{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+        padding-bottom: 20px;
+    }
+    .ul{
+        width: 75%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .ul a{
+        text-decoration: none;
+        color: black;
+    }
+    .ul a:hover{
+        text-decoration: none;
+        color: white;
+        background-color: lightblue;
+    }
+    .cuerpo{
+        width: 100%;
+        height: 35rem;
+        display: flex;
+    }
+    .izq{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: gray;
+    }
+        .izq h2 {
+            width: 100%;
+            height: 15%;
+            font-family: Helvetica;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .medio{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: lightgray;
+    }
+        .medio h2{
+                width: 100%;
+                height: 15%;
+                font-family: Helvetica;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    .der{
+        width: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(252, 71, 71);
+    }
+    .pie{
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        flex-flow: column;
+    }
+        .pie h3{
+            font-family: helvetica;
+            font-weight: lighter;
+            font-size: 20px;
+        }
+}
+ 
+@media  screen and (min-width: 700px) and (max-width: 1020px){
+    .contenedor{
+        width: 100%;
+    }
+    .header{
+        width:100%;
+        display: flex;
+        flex-flow: row;
+    }.logo{
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+        flex-flow: row;
+    }
+        .logo img{
+            /* width: 250px;
+            height: 75px; */
+        }
+    .nav{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+        padding-bottom: 20px;
+    }
+    .ul{
+        width: 75%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .ul a{
+        text-decoration: none;
+        color: black;
+    }
+    .ul a:hover{
+        text-decoration: none;
+        color: white;
+        background-color: lightblue;
+    }
+    .cuerpo{
+        width: 100%;
+        height: 35rem;
+        display: flex;
+    }
+    .izq{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: gray;
+    }
+        .izq h2 {
+            width: 100%;
+            height: 15%;
+            font-family: Helvetica;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .medio{
+        width: 33%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: lightgray;
+    }
+        .medio h2{
+                width: 100%;
+                height: 15%;
+                font-family: Helvetica;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    .der{
+        width: 300px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: rgb(252, 71, 71);
+    }
+    .pie{
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        flex-flow: column;
+    }
+        .pie h3{
+            font-family: helvetica;
+            font-weight: lighter;
+            font-size: 20px;
+        }
+}
+
+@media  screen and (max-width: 700px) {
+        .contenedor{
+        width: 100%;
+    }
+    .header{
+        width:100%;
+    }.logo{
+        width: 30%;
+        display: flex;
+        align-items: flex-start;
+    }
+        .logo img{
+            /* width: 250px;
+            height: 75px; */
+        }
+    .nav{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        flex-flow: row;
+        padding-bottom: 20px;
+    }
+    .ul{
+        width: 75%;
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+    }
+    .ul a{
+        text-decoration: none;
+        color: black;
+    }
+    .ul a:hover{
+        text-decoration: none;
+        color: white;
+        background-color: lightblue;
+    }
+    .cuerpo{
+        width: 100%;
+        height: 35rem;
+        display: flex;
+    }
+    .izq{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: gray;
+    }
+        .izq h2 {
+            width: 100%;
+            height: 15%;
+            font-family: Helvetica;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    .medio{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background-color: lightgray;
+    }
+        .medio h2{
+                width: 100%;
+                height: 15%;
+                font-family: Helvetica;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    .der{
+        width: 300px;
+        height: 100%;
+        justify-content: center;
+        background-color: rgb(252, 71, 71);
+    }
+    .pie{
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        flex-flow: column;
+    }
+        .pie h3{
+            font-family: helvetica;
+            font-weight: lighter;
+            font-size: 20px;
+        }
+}
